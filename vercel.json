@@ -1,7 +1,14 @@
 {
-    "build": {
-      "env": {
-        "OPENAI_API_KEY": "@openai_api_key"
+    "builds": [
+      {
+        "src": "dist/**",
+        "use": "@vercel/static"
       }
-    }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
   }
