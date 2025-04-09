@@ -112,8 +112,8 @@ const voorraadData = [
   `;
   
   export default {
-    name: "Geberit Assistent",
-    logo: require("../assets/geberit-logo.png"),
-    primaryColor: "#005DAA",
-    systemPrompt,
+    name: 'Geberit Assistent',
+    logo: require('../assets/geberit-logo3.png'), // Zorg dat dit pad klopt
+    primaryColor: '#0072CE',
+    systemPrompt: 'Je bent een Geberit assistent...',
   };
