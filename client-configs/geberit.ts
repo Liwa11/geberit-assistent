@@ -111,9 +111,11 @@ const voorraadData = [
   Wees kort, concreet en zakelijk in je antwoorden.
   `;
   
-  export default {
-    name: 'Geberit Assistent',
-    logo: require('../assets/geberit-logo3.png'), // Zorg dat dit pad klopt
-    primaryColor: '#0072CE',
-    systemPrompt: 'Je bent een Geberit assistent...',
+  const config = {
+    name: "Geberit Assistent",
+    logo: require("../assets/geberit-logo3.png"),
+    primaryColor: "#0072CE",
+    systemPrompt,
   };
+  
+  export default config;
